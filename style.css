@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    margin-top: 100px;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 350px;
+    height: 470px;
+}
+.search{
+ padding:10px 30px ;
+ 
+}
+.search input{
+    height: 30px;
+    width: 230px;
+    border: 3px rgb(245, 239, 239) solid;
+    border-radius: 5px;
+}
+.search input::placeholder{
+      text-transform: capitalize;
+      font-size: 20px;
+      color: black;
+      padding: 10px;
+
+}
+.search button{
+    width: 30px;
+    height: 33px ;
+    border: none;
+    border-radius: 5px;
+    background-color: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.search button:hover{
+    color:none ;
+    background-color: #d4d2d2;
+}
+.weather{
+
+      width: 30%;
+      height: auto;
+     padding-top: 10px;
+     padding-right: 120px ;   
+     text-transform: capitalize;  
+}
+.temperature{
+    display:inline-block;
+    width:max-content;
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+}
+.temperature p{
+    font-size: 20px;
+}
+.vv{
+    width:max-content;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+     
+ }
+ .vv p{
+    font-size: 20px;
+ }
+ .hums{
+    padding-top: 9px;
+    margin-right: 10px;
+ }
+ .wind{
+    padding-top: 18px;
+    margin-left: 80px;
+ }
